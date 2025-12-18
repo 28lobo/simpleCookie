@@ -1,6 +1,7 @@
 import { CookieGrid } from "../components/CookieGrid";
 import { HeaderBar } from "../components/HeaderBar";
 import { Hero } from "../components/Hero";
+import { HowItWorks } from "../components/HowItWorks";
 import { NewsletterSection } from "../components/NewsletterSection";
 import { ShopSection } from "../components/ShopSection";
 import { StorySection } from "../components/StorySection";
@@ -50,7 +51,8 @@ export default function Home() {
       <div className="mx-auto max-w-6xl px-5 pb-16 pt-6 sm:px-8 lg:px-10">
         <HeaderBar />
         <Hero />
-        <CookieGrid cookies={cookieCards} /> 
+        <HowItWorks />
+        <CookieGrid cookies={cookieCards} />
         <StorySection cookies={cookieCards} />
         <ShopSection cookies={cookieCards} />
         <TeamSection staff={staff} />
